@@ -61,14 +61,14 @@ int main()
 	cin >> paisa1;
 	binod.Debit(paisa1);
 	cout << binod.getBalance() << "\n";
-	cout << "enter the amount you want to start Gaurav account with? \n";
+	cout << "enter the amount you want to start Ayush account with? \n";
 	cin >> openBalance;
 	account ayush(openBalance);
-	cout << "enter the amount you want to add in Gaurav's account? \n";
+	cout << "enter the amount you want to add in Ayush's account? \n";
 	cin >> paisa;
 	ayush.Debit(paisa);
 	cout << ayush.getBalance() << "\n";
-	cout << "enter the amount you want to removein Gaurav's account? \n";
+	cout << "enter the amount you want to removein Ayush's account? \n";
 	cin >> paisa1;
 	ayush.Debit(paisa1);
 	cout << ayush.getBalance() << "\n";
