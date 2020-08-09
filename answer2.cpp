@@ -57,7 +57,7 @@ int main()
 	binod.Credit(paisa);
 	cout << binod.getBalance() << "\n";
 	double paisa1 ;
-	cout << "enter the amount you want to removein binod's account? \n";
+	cout << "enter the amount you want to remove from binod's account? \n";
 	cin >> paisa1;
 	binod.Debit(paisa1);
 	cout << binod.getBalance() << "\n";
